@@ -1,0 +1,16 @@
+//importa arquivos .scss
+@import './variaveis';
+@import './_header'; 
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+main{
+    @include flexCenter(0 100px);
+    @extend *;
+    margin-top: 40px;
+}
